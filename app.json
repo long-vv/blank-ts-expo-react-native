@@ -1,6 +1,8 @@
 {
+  "name": "Blank Ts Expo",
+  "displayName": "Blank Ts Expo",
   "expo": {
-    "name": "blank-ts-expo-react-native",
+    "name": "Blank Ts Expo",
     "slug": "blank-ts-expo-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,7 +14,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.longvv.blank-ts-expo-react-native"
     },
     "android": {
       "adaptiveIcon": {
