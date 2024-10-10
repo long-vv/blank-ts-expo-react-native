@@ -25,6 +25,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      ["expo-build-properties", { "ios": { "deploymentTarget": "14.0" } }],
+      "@tryvital/vital-core-react-native",
+      "@tryvital/vital-health-react-native"
+    ]
   }
 }
