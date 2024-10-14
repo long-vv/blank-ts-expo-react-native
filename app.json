@@ -27,7 +27,18 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      ["expo-build-properties", { "ios": { "deploymentTarget": "14.0" } }],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 26,
+            "compileSdkVersion": 34,
+            "kotlinVersion": "1.9.23",
+            "targetSdkVersion": 34
+          },
+          "ios": { "deploymentTarget": "14.0" }
+        }
+      ],
       "@tryvital/vital-core-react-native",
       "@tryvital/vital-health-react-native"
     ]
